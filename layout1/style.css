@@ -1,3 +1,73 @@
-h1 {
-  color: rebeccapurple;
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.mainBox {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  /* justify-content: center; */
+  outline: auto;
+  display: flex;
+  /* align-items: center; */
+}
+
+.topBox {
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  /* justify-content: center; */
+  outline: auto;
+  /* align-items: flex-end; */
+  display: flex;
+  justify-self: center;
+  margin: auto;
+}
+
+.white1Box {
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  outline: auto;
+  align-items: flex-end;
+  justify-content: right;
+}
+.yellowBox {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(241, 227, 145);
+  outline: auto;
+  align-items: flex-end;
+  justify-content: right;
+}
+.blackBox {
+  width: 100px;
+  height: 120px;
+  background-color: black;
+  outline: auto;
+  align-items: flex-end;
+  justify-content: right;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.white2Box {
+  width: 50px;
+  height: 150px;
+  background-color: white;
+  outline: auto;
+
+  /* justify-content: right; */
+}
+.orangeBox {
+  width: 50px;
+  height: 20px;
+  background-color: orange;
+  outline: auto;
+  align-self: flex-end;
 }
